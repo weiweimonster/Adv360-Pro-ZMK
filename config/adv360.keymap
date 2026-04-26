@@ -87,6 +87,13 @@
             timeout-ms = <50>;
             layers = <0>;
         };
+
+        mom_rectangle {
+            bindings = <&mo 3>;
+            key-positions = <48 49>;
+            layers = <0>;
+            timeout-ms = <50>;
+        };
     };
 
     macros {
