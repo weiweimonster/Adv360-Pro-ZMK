@@ -164,8 +164,8 @@
         rectangle {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans                  &trans                &trans             &trans             &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &kp LC(LG(LEFT))        &kp LC(LG(UP_ARROW))  &kp LC(LG(RIGHT))  &trans             &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp LA(LC(LEFT_ARROW))  &kp LA(LC(UP_ARROW))  &kp LC(LA(DOWN))   &kp LC(LA(RIGHT))  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &kp LC(LA(LEFT))        &kp LC(LA(UP_ARROW))  &kp LC(LA(RIGHT))  &trans             &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp LC(LG(LEFT_ARROW))  &kp LC(LG(UP_ARROW))  &kp LC(LG(DOWN))   &kp LC(LA(RIGHT))  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans                  &trans                &trans             &trans             &trans
 &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans                  &trans                &trans             &trans             &trans
             >;
