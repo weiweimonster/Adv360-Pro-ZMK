@@ -76,13 +76,20 @@
 
             tapping-term-ms = <200>;
         };
+
+        my_cap_word: my_cap_word {
+            compatible = "zmk,behavior-caps-word";
+            label = "MY_CAP_WORD";
+            #binding-cells = <0>;
+            continue-list = <MINUS>;
+        };
     };
 
     combos {
         compatible = "zmk,combos";
 
         cap_word_combo {
-            bindings = <&caps_word>;
+            bindings = <&my_cap_word>;
             key-positions = <32 41>;
             timeout-ms = <50>;
             layers = <0>;
