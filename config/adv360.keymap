@@ -123,6 +123,20 @@
             bindings = <&kp LEFT_BRACKET &kp RIGHT_BRACKET &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp LEFT &kp LEFT &kp LEFT>;
             label = "MD_HYPERLINK";
         };
+
+        vim_quit: vim_quite {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp COLON &kp Q>;
+            label = "VIM_QUITE";
+        };
+
+        vim_save: vim_save {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp COLON &kp X>;
+            label = "VIM_SAVE";
+        };
     };
 
     keymap {
@@ -214,6 +228,16 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp NUMBER_4     &kp NUMBER_5  &kp N6        &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &trans  &trans
 &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans           &kp NUMBER_0  &trans        &trans  &trans
+            >;
+        };
+
+        vim_layer {
+            bindings = <
+&trans  &trans     &trans     &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &vim_quit  &trans     &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans     &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &vim_save  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans     &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
