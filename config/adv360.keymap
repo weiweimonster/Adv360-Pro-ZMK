@@ -194,11 +194,11 @@
 
         common {
             bindings = <
-&trans  &trans     &trans     &trans     &trans     &trans  &trans                                      &trans  &trans     &trans               &trans        &trans                &trans     &trans
-&trans  &kp LG(Q)  &trans     &trans     &trans     &trans  &trans                                      &trans  &trans     &left_bracket_dance  &kp UP_ARROW  &right_bracket_dance  &kp PIPE   &trans
-&trans  &kp LG(A)  &kp LG(S)  &kp LG(D)  &kp LG(F)  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp RC(A)  &kp LEFT             &kp DOWN      &kp RIGHT             &kp RC(E)  &trans
-&trans  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &trans                  &trans      &trans                  &trans     &trans               &trans        &trans                &trans     &trans
-&trans  &trans     &trans     &trans     &trans             &trans  &trans  &trans      &trans  &trans  &trans             &kp LG(MINUS)        &kp LG(PLUS)  &trans                &trans     &trans
+&trans  &trans     &trans     &trans     &trans     &trans  &trans                                      &trans  &trans  &trans         &trans        &trans     &trans  &trans
+&trans  &kp LG(Q)  &trans     &trans     &trans     &trans  &trans                                      &trans  &trans  &trans         &kp UP_ARROW  &trans     &trans  &trans
+&trans  &kp LG(A)  &kp LG(S)  &kp LG(D)  &kp LG(F)  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp LEFT       &kp DOWN      &kp RIGHT  &trans  &trans
+&trans  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &trans                  &trans      &trans                  &trans  &trans         &trans        &trans     &trans  &trans
+&trans  &trans     &trans     &trans     &trans             &trans  &trans  &trans      &trans  &trans  &trans          &kp LG(MINUS)  &kp LG(PLUS)  &trans     &trans  &trans
             >;
         };
 
