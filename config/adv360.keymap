@@ -110,12 +110,12 @@
 
         symbol_mo {
             bindings = <&mo 2>;
-            key-positions = <17 31>;
+            key-positions = <32 18>;
         };
 
         number_mo {
             bindings = <&mo 1>;
-            key-positions = <18 32>;
+            key-positions = <19 33>;
         };
     };
 
