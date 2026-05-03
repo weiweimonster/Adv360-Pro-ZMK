@@ -81,7 +81,7 @@
             compatible = "zmk,behavior-caps-word";
             label = "MY_CAP_WORD";
             #binding-cells = <0>;
-            continue-list = <MINUS>;
+            continue-list = <MINUS BACKSPACE>;
         };
     };
 
@@ -91,7 +91,7 @@
         cap_word_combo {
             bindings = <&my_cap_word>;
             key-positions = <32 41>;
-            timeout-ms = <50>;
+            timeout-ms = <70>;
             layers = <0>;
         };
 
@@ -99,11 +99,13 @@
             bindings = <&kp TAB>;
             key-positions = <65 70>;
             layers = <0>;
+            timeout-ms = <70>;
         };
 
         esc {
             bindings = <&kp LC(ESCAPE)>;
             key-positions = <16 30>;
+            timeout-ms = <70>;
         };
     };
 
