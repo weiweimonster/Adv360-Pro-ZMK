@@ -107,6 +107,16 @@
             key-positions = <16 30>;
             timeout-ms = <70>;
         };
+
+        symbol_mo {
+            bindings = <&mo 2>;
+            key-positions = <17 31>;
+        };
+
+        number_mo {
+            bindings = <&mo 1>;
+            key-positions = <18 32>;
+        };
     };
 
     macros {
